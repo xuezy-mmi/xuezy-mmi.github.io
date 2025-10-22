@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a 1st-year Ph.D. student at [MASA Lab](https://github.com/masa-laboratory), College of Computer Science and Technology, National University of Defense Technology (NUDT), under the supervision of Prof. Mei Wen and Dr. Yang Shi. My research interests primarily focused on AI accelerator architecture and compilation, sparse computing.
+I am currently a 1st-year Ph.D. student at [MASA Lab](https://github.com/masa-laboratory), College of Computer Science and Technology, National University of Defense Technology (NUDT), under the supervision of Prof. Mei Wen and Dr. Yang Shi. My research interests primarily focused on AI accelerator architecture and compilation, sparse computing. 
 
 
 A data-driven personal website
@@ -23,6 +23,6 @@ For those users that need more advanced functionality, the template also support
 
 Selected Publication
 ======
-1. SSpMM
-2. Tiled-CSR
+1. SSpMM: Efficiently Scalable SpMM Kernels Across Multiple Generations of Tensor Cores. (https://ieeexplore.ieee.org/document/11189050)
+2. Releasing the Potential of Tensor Core for Unstructured SpMM using Tiled-CSR Format. (https://ieeexplore.ieee.org/document/10361013)
 
