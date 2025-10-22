@@ -8,7 +8,9 @@ redirect_from:
 ---
 
 I am currently a 1st-year Ph.D. student at [MASA Lab](https://github.com/masa-laboratory), College of Computer Science and Technology, National University of Defense Technology (NUDT), under the supervision of Prof. Mei Wen and Dr. Yang Shi. My research interests primarily focused on AI accelerator architecture and compilation, sparse computing. 
-My previous work specialized in designing and optimizing parallel programs (including GEMM, SpMM) for AI accelerators, especially GPU Tensor Cores, achieving not-bad results in accelerating SpMM. I am also keenly interested in processor performance modeling, AI compilers, and architecture design, which I plan to pursue as my future research directions.
+
+My previous work specialized in designing and optimizing parallel programs (including GEMM, SpMM) for AI accelerators, especially GPU Tensor Cores, achieving not-bad results in accelerating SpMM. 
+I am also keenly interested in processor performance modeling, AI compilers, and architecture design, which I plan to pursue as my future research directions.
 
 Interesting Projects
 ======
