@@ -1,7 +1,7 @@
 ---
 title: "SSpMM: Efficiently Scalable SpMM Kernels Across Multiple Generations of Tensor Cores"
 collection: publications
-category: journal
+category: journals
 date: 2025-10-01
 venue: 'IEEE Transactions on Parallel and Distributed Systems (TPDS)'
 codeurl: 'https://github.com/xuezy-mmi/SSpMM'
