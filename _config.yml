@@ -25,7 +25,7 @@ author:
   avatar           : "xzy.png"
   name             : "Zeyu Xue (薛泽宇)"
   pronouns         : # example: "she/her"  
-  bio              : "A single man"
+  bio              : "Ph.D Candidate (Computer Architecture)"
   location         : "Changsha"
   employer         : "NUDT"
   uri              : # URL
@@ -83,9 +83,9 @@ publication_category:
   books:
     title: 'Thesis'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
