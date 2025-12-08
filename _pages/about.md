@@ -14,14 +14,15 @@ I am also keenly interested in processor performance modeling, AI compilers, and
 
 Interesting Projects
 ======
-1. [Low Precision GEMM on GPU Tensor Core.](https://github.com/xuezy-mmi/Tensor-Core-FP8)(To Be Continue!)
-2. [Unstructured SpMM on GPU Tensor Core.](https://github.com/xuezy-mmi/SSpMM)(SSpMM, published on TPDS)
-3. [Architecture-based Analytical Cost Model for Modeling, Auto-Tuning, HW Generation.](https://github.com/xuezy-mmi/analytical_cost_model)(Next Stage)
+1. [Low Precision GEMM on GPU Tensor Core.](https://github.com/xuezy-mmi/Tensor-Core-FP8)(Ongoing Updates!)
+2. [Unstructured SpMM on GPU Tensor Core.](https://github.com/xuezy-mmi/SSpMM)
+3. Architecture-based Analytical Cost Model for Modeling, Auto-Tuning, HW Generation.(Next Stage)
 
 Selected Publication
 ======
 - [SSpMM: Efficiently Scalable SpMM Kernels Across Multiple Generations of Tensor Cores](https://ieeexplore.ieee.org/document/11189050).
-  [PDF](http://xuezy-mmi.github.io/files/2025-TPDS-SSpMM.pdf). [code](https://github.com/xuezy-mmi/SSpMM).
+  [PDF](http://xuezy-mmi.github.io/files/2025-TPDS-SSpMM.pdf).
+  [code](https://github.com/xuezy-mmi/SSpMM).
 - [Releasing the Potential of Tensor Core for Unstructured SpMM using Tiled-CSR Format](https://ieeexplore.ieee.org/document/10361013).
   [PDF](http://xuezy-mmi.github.io/files/2023-ICCD-Releasing.pdf).
 
