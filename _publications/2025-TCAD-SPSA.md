@@ -1,7 +1,7 @@
 ---
 title: "SPSA: Exploring Sparse-Packing Computation on Systolic Arrays From Scratch"
 collection: publications
-category: journal
+category: journals
 date: 2025-02-01
 venue: 'IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems'
 codeurl: ''
