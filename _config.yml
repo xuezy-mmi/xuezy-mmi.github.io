@@ -25,7 +25,7 @@ author:
   avatar           : "xzy.png"
   name             : "Zeyu Xue (薛泽宇)"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D Candidate (Computer Architecture)"
+  bio              : "Ph.D Candidate | (Integrated Circuit Science and Engineering)"
   location         : "Changsha"
   employer         : "NUDT"
   uri              : # URL
@@ -76,7 +76,7 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : "https://www.zhihu.com/people/zhou-ye-sheng-17-34"
+  zhihu            : "zhou-ye-sheng-17-34"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
