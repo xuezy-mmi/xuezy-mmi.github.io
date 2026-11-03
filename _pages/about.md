@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a 2nd-year Ph.D. student at College of Computer Science and Technology, National University of Defense Technology (NUDT), under the supervision of Prof. Bin Liang and Dr. Yang Shi. My research interests primarily focused on AI accelerator architecture and compilation, sparse computing. 
+I am currently a 2nd-year Ph.D. student at College of Computer Science and Technology, National University of Defense Technology (NUDT), under the supervision of Prof. Bin Liang and Dr. Yang Shi. I am currently a visiting PhD student in Prof. Jieru Zhao’s ZLab. My research interests primarily focused on AI accelerator architecture and compilation, sparse computing. 
 
 My previous work specialized in designing and optimizing parallel programs (including GEMM, SpMM) for AI accelerators, especially GPU Tensor Cores, achieving not-bad results in accelerating SpMM. 
 I am also keenly interested in processor performance modeling, AI compilers, and architecture design, which I plan to pursue as my future research directions.
@@ -20,12 +20,11 @@ Interesting Projects
 
 Selected Publication
 ======
-- [SSpMM: Efficiently Scalable SpMM Kernels Across Multiple Generations of Tensor Cores](https://ieeexplore.ieee.org/document/11189050).
-  [PDF](http://xuezy-mmi.github.io/files/2025-TPDS-SSpMM.pdf).
-  [code](https://github.com/xuezy-mmi/SSpMM).
-- [Releasing the Potential of Tensor Core for Unstructured SpMM using Tiled-CSR Format](https://ieeexplore.ieee.org/document/10361013).
-  [PDF](http://xuezy-mmi.github.io/files/2023-ICCD-Releasing.pdf).
-- PAG: An Automated Generation Framework for Precision-Scalable Accelerators.
+- Bifrost: Unlocking Loop Nest Optimization for Spatial Accelerators via Decoupled Representation (HPCA 2027)
+- PAG: An Automated Generation Framework for Precision-Scalable Accelerators (ICCAD 2026)
+- SSpMM: Efficiently Scalable SpMM Kernels Across Multiple Generations of Tensor Cores (TPDS 2025).
+- Releasing the Potential of Tensor Core for Unstructured SpMM using Tiled-CSR Format (ICCD 2023)
+
 
   
 
