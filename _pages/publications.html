@@ -9,25 +9,14 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.orcid}}">my ORCID profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+{%- comment -%}
+  Flat, reverse-chronological list (no journal/conference grouping).
+  Jekyll keeps collection documents sorted by date ascending, so `reversed`
+  yields newest first.
+{%- endcomment -%}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div class="pub-list">
+  {%- for pub in site.publications reversed %}
+  {% include publication-item.html pub=pub %}
+  {%- endfor %}
+</div>

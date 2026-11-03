@@ -2,10 +2,11 @@
 title: "SwiftPrune: Hessian-Free Weight Pruning for Large Language Models"
 collection: publications
 category: conferences
-date: 2025-11-4
-venue: 'The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)'
+date: 2025-11-04
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
+authors: 'Yuhan Kang, Yang Shi, Mei Wen, Jun He, Jianchao Yang, Zeyu Xue, Jing Feng, Xinwang Liu'
 codeurl: ''
-slideurl: ''
-paperurl: 'aclanthology.org/2025.findings-emnlp.690/'
+slidesurl: ''
+paperurl: 'https://aclanthology.org/2025.findings-emnlp.690/'
 citation: 'Yuhan Kang, Yang Shi, Mei Wen, Jun He, Jianchao Yang, Zeyu Xue, Jing Feng, and Xinwang Liu. SwiftPrune: Hessian-Free Weight Pruning for Large Language Models. The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP). ACL, 2025: 12868–12879.'
 ---

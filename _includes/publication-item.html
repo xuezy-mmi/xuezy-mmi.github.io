@@ -1,0 +1,42 @@
+{%- comment -%}
+  Compact single-publication entry (no title link; icons at the bottom right).
+  Usage: {% include publication-item.html pub=post %}
+{%- endcomment -%}
+
+{%- assign pub = include.pub -%}
+{%- assign self_name = site.author.name | split: " (" | first | strip -%}
+{%- capture self_html -%}<span class="pub-entry__self">{{ self_name }}</span>{%- endcapture -%}
+{%- assign badges = pub.badges | default: "" | strip -%}
+{%- assign paper_url = pub.paperurl | default: "" | strip -%}
+{%- assign code_url = pub.codeurl | default: "" | strip -%}
+{%- assign slides_url = pub.slidesurl | default: "" | strip -%}
+
+<div class="pub-entry">
+  <div class="pub-entry__body">
+    <h3 class="pub-entry__title">{{ pub.title }}</h3>
+
+    {%- if badges != "" %}
+    <p class="pub-entry__badges">{{ badges }}</p>
+    {%- endif %}
+
+    {%- if pub.authors %}
+    <p class="pub-entry__authors">{{ pub.authors | replace: self_name, self_html }}</p>
+    {%- endif %}
+
+    <p class="pub-entry__venue"><em>{{ pub.venue }}, {{ pub.date | date: "%B %Y" }}.</em></p>
+  </div>
+
+  {%- if paper_url != "" or code_url != "" or slides_url != "" %}
+  <div class="pub-entry__links">
+    {%- if paper_url != "" %}
+    <a class="pub-entry__link" href="{{ paper_url }}" title="Paper" aria-label="Paper" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i></a>
+    {%- endif %}
+    {%- if code_url != "" %}
+    <a class="pub-entry__link" href="{{ code_url }}" title="Code" aria-label="Code" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a>
+    {%- endif %}
+    {%- if slides_url != "" %}
+    <a class="pub-entry__link" href="{{ slides_url }}" title="Slides" aria-label="Slides" target="_blank" rel="noopener"><i class="fas fa-file-powerpoint" aria-hidden="true"></i></a>
+    {%- endif %}
+  </div>
+  {%- endif %}
+</div>
