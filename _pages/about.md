@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a 2nd-year Ph.D. student at College of Computer Science and Technology, National University of Defense Technology (NUDT), under the supervision of Prof. Bin Liang and Dr. Yang Shi. I am currently a visiting PhD student in Prof. [Jieru Zhao](https://zjru.github.io/)’s [Zhao Lab](https://github.com/sjtu-zhao-lab). My research interests primarily focus on AI accelerator architecture and compilation, sparse computing. 
+I am currently a 2nd-year Ph.D. student at College of Computer Science and Technology, National University of Defense Technology (NUDT), under the supervision of Prof. Bin Liang and Dr. Yang Shi. I am currently a visiting PhD student in Prof. Jieru Zhao’s Zhao Lab. My research interests primarily focus on AI accelerator architecture and compilation, sparse computing. 
 
 My previous work specialized in designing and optimizing parallel programs (including GEMM, SpMM) for AI accelerators, especially GPU Tensor Cores, achieving not-bad results in accelerating SpMM. 
 I am also keenly interested in processor performance modeling, AI compilers, and architecture design, which I plan to pursue as my future research directions.
